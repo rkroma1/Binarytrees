@@ -2,9 +2,9 @@
 package com.company.TreeModel;
 
 public class Node {
-    String value;
-    Node left;
-    Node right;
+   private String value;
+    private Node left;
+    private Node right;
 
     public Node(String value){
         this.value = value;
